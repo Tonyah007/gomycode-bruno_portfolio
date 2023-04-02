@@ -1,11 +1,275 @@
 /* TODO: import font(s) */
 
 :root {
+  font-family: Inter;
+  font-style: normal;
+  min-width:100%;
   /* TODO: root styles */
 }
 
-* {
-  /* TODO: resets */
+
+/* TODO: styles */
+
+*{box-sizing: border-box;}
+
+h4{
+  
+  width: 139px;
+  height: 28px;
+  top: 28px;
+  left: 112px;
 }
 
-/* TODO: your styles */
+
+body{
+  
+  background-color: whitesmoke;
+  color: black;
+  font-family: "lato";
+  margin-top: 20px;
+  font:100;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 6px 20px;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+#nav-links{
+  height: 84px;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  gap: 50px;
+  justify-content: space-around;
+  justify-items: flex-end;
+}
+ 
+
+.hero{
+display: flex;
+flex-direction: column;
+}
+
+
+
+.btn1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 16px;
+  gap: 8px;
+  height: 35px;
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+  cursor: pointer;
+  }
+
+.btn2{
+  display:block;
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  align-self: center;
+  padding: 10px 16px;
+  margin-bottom: 100px;
+  width: 184px;
+  height: 52px;
+  color: white;
+  background-color: blue;
+  border-radius: 20px;
+  cursor: pointer;
+  
+}
+.btn3{
+  display: block;
+  align-self: center;
+  margin: 20px 16px;
+  border-radius: 100px;
+  cursor: pointer;
+  text-align: center;
+  padding: 16px 16px 16px 20px;
+  background-color: #111827;
+  color: white;
+}
+  h5{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  }
+  
+h1{
+  display: flex;
+  justify-content: space-evenly;
+  /*max-width: 800px;*/
+  font-size: 75px;
+}
+
+/* services section */
+.services{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 1216px;
+  gap: 48px;
+  position: relative;
+  padding: 120px 112px 120px 112px;
+}
+
+.services-article{
+  font-size: 48px;
+  line-height: 60px;
+  max-width: 600px;
+  font-weight: 600;
+  
+}
+.services-projects{
+  gap: 24px;
+  display: flex;
+  position: static;
+  max-width: 1216px;
+
+}
+.services-projects-right{
+  margin-top: 50px;
+}
+.services-projects1 i{
+  width: 512px;
+  height: 656px;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  size: 30px;
+  position: relative;
+}
+
+
+
+
+/* services-works section*/
+.services-cards-zone{
+  background-color: white;
+  display: flex;
+  max-width: 1216px;
+}
+
+.services-cards-container{
+  background-color: #f0fefa;
+  width: 992px;
+  height: 560px;
+  margin: 112px 120px;
+  padding: 64px 0px 64px 0px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  size: 90%;
+  position: relative;
+}
+
+
+.services-cards-article{
+  width: 344px;
+  display: flex;
+  flex-direction: column;
+  gap:16px;
+}
+.services-cards-article{
+  display: flex;
+}
+
+.services-cards{
+  display: flex;
+  flex-direction: row;
+  padding: 0 64px 0 0;
+  gap: 32px;
+  background-color: inherit;
+}
+.service-card{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 32px;
+  background-color: white;
+  offset: 24px 24px;
+  
+ 
+}
+
+
+
+
+/* workstation part */
+.About-me {
+  max-width: 1216px;
+  margin: 0 auto;
+  padding: 184px 40px;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.About-me1 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+vertical-align: top;}
+
+.About-me h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.025em;}
+
+.About-me1 p {
+    margin-bottom: 2px;
+    align-content: left;
+    line-height: 103%;}
+
+.experience p:last-child {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #374151;
+}
+
+.experiences{
+  display: flex;
+  justify-content: center;
+  align-content: right;
+}
+
+.experiences i{
+  width: 384px;
+  height: 512px;
+}
+
+.experience{
+  display: block;
+  align-content: center;
+  padding: 0 0 0 32px;
+  /* width: 280px; */
+  height: 440px;
+  top: 36px;
+  left: 416px;
+  gap: 64px;
+}
+
+
+
+
+#footer{
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/Footer.png);
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+}
+ 
